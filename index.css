@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    height: 80px;
+    position: sticky;
+    top: 0%;
+    
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(239, 236, 236);
+    border-radius: 25px;
+    width: 355px;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
+}
+header .middle .vertical_line{
+    height: 24px;
+    width: 1px;
+    background-color: gray;
+}
+
+header .end{
+    display: flex;
+    justify-content: space-between;
+    width: 263px;
+    align-items: center;
+}
+.user{
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 7px;
+    width: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-header{
+    margin-top: 20px;
+    /* background-color: aqua; */
+    height: 98px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+}
+.bottom-header .small-img{
+    text-align: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.bottom-header .small-img:hover{
+text-decoration: underline;
+ 
+}
+.filter{
+    border: 1px solid;
+    padding: 13px;
+    border-radius: 12px;
+    width: 80px;
+}
+
+.searchbar{
+text-align: center;
+}
+.searchbar input{
+    padding: 16px;
+    width: 667px;
+    border-radius: 12px;
+  
+}
+/* cards */
+
+.cards{
+    padding-left: 80px;
+    padding-right: 80px;
+    /* background-color: aqua; */
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin-left: 19px;
+    margin-top: 20px;
+}
+.cards .cardImage img{
+    width: 320px;
+    height: 305px;
+    border-radius: 15px;
+}
+
+footer{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: rgb(236, 237, 237);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
